@@ -1,3 +1,7 @@
-var nomeUsuario = 
+let nomeUsuario = prompt('Digite seu nome para continuar!')
 
-alert('Seja bem vindo(a), nomeUsuario ! ')
+function boasVindas(Usuario){
+    alert('Seja bem vindo(a), ' + Usuario + ' ! ')
+}
+
+boasVindas(nomeUsuario)
