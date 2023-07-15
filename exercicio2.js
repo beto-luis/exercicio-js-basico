@@ -1,4 +1,4 @@
-let boletoPago = true
+const boletoPago = false
 
 if(boletoPago){
     console.log("O boleto está pago")
